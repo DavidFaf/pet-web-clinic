@@ -1,4 +1,4 @@
 package com.bigfafs.springpetclinic.objectModel;
 
-public class PetType {
+public class PetType extends BaseEntity{
 }

@@ -4,10 +4,6 @@ import com.bigfafs.springpetclinic.objectModel.Vet;
 
 import java.util.Set;
 
-public interface VetService {
-    Vet findById(Long Id);
+public interface VetService extends CrudService {
 
-    Vet saveVet(Vet vet);
-
-    Set<Vet> findAll();
 }
